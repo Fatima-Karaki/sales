@@ -14,6 +14,5 @@ public class SalesDto
 {
 	private Long clientId;
 	private String seller;
-	private double total;
 	private List<TransactionDto> transactionDtoList;
 }

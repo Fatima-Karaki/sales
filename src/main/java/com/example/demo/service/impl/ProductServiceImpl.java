@@ -52,7 +52,7 @@ public class ProductServiceImpl implements ProductService
 
 		Pageable pageable = PageRequest.of(offset, limit, Sort.by("creationDate").descending());
 		Page<ProductEntity> productEntities = productRepository.findAll(pageable);
-		return ResponseHelper.CREATED(productEntities);
+		return ResponseHelper.SUCCESS(productEntities);
 	}
 
 	@Override

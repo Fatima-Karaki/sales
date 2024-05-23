@@ -10,7 +10,7 @@ import java.sql.Timestamp;
 import java.time.LocalDateTime;
 
 @Entity
-@Table(name = "log")
+@Table(name = "logs")
 @Setter
 @Getter
 @Accessors(chain = true)
